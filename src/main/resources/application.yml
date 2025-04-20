@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: goormthon
+  datasource:
+    url: jdbc:mysql://localhost:3306/goormthon
+    username: root
+    password: Mkhb2002*
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
+      hibernate:
+        ddl-auto: update
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
